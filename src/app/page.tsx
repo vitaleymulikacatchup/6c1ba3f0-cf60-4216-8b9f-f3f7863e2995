@@ -56,6 +56,9 @@ export default function LandingPage() {
             </button>
           </div>
         </div>
+        <div className="absolute top-4 right-4 bg-primary-cta text-white px-4 py-2 rounded-lg font-semibold text-sm z-20">
+          Approved 2000 users
+        </div>
       </div>
 
       <div id="about" data-section="about">
