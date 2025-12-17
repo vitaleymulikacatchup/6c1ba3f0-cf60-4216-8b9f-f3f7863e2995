@@ -41,10 +41,6 @@ export default function LandingPage() {
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765960675345-y2u0h80s.jpg"
           imageAlt="Elegant Anonime restaurant interior with warm ambient lighting"
           frameStyle="card"
-          middleContent={{
-            phoneNumber: "+3809311111111",
-            buttonText: "Call if you want reserve place"
-          }}
         />
       </div>
 
