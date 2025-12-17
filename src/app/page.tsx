@@ -46,10 +46,10 @@ export default function LandingPage() {
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-primary-cta" />
-              <span className="text-lg font-semibold text-foreground">+3809311111111</span>
+              <span className="text-lg font-semibold text-foreground">+3809322211155</span>
             </div>
             <button
-              onClick={() => window.location.href = 'tel:+3809311111111'}
+              onClick={() => window.location.href = 'tel:+3809322211155'}
               className="w-full bg-primary-cta text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity"
             >
               Call if you want reserve place
@@ -179,7 +179,7 @@ export default function LandingPage() {
           ctaDescription="Book your table at Anonime and prepare for an unforgettable culinary journey. Limited seatings available daily."
           ctaButton={{
             text: "Reserve Now",
-            href: "tel:+1234567890"
+            href: "tel:+3809322211155"
           }}
           ctaIcon={Phone}
           faqs={[
@@ -252,7 +252,7 @@ export default function LandingPage() {
           contactItems={[
             {
               icon: Phone,
-              text: "+1 (555) 123-4567"
+              text: "+3809322211155"
             },
             {
               icon: Mail,
