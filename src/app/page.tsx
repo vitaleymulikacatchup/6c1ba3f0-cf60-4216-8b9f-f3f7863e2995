@@ -34,7 +34,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" className="relative">
         <HeroLogoBillboard
           logoText="Anonime"
           description="Experience culinary excellence in an intimate setting where tradition meets innovation. Every dish tells a story of passion and precision."
@@ -42,6 +42,20 @@ export default function LandingPage() {
           imageAlt="Elegant Anonime restaurant interior with warm ambient lighting"
           frameStyle="card"
         />
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-90 backdrop-blur-sm rounded-lg shadow-lg p-6 max-w-sm z-10">
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-3">
+              <Phone className="w-5 h-5 text-primary-cta" />
+              <span className="text-lg font-semibold text-foreground">+3809311111111</span>
+            </div>
+            <button
+              onClick={() => window.location.href = 'tel:+3809311111111'}
+              className="w-full bg-primary-cta text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity"
+            >
+              Call if you want reserve place
+            </button>
+          </div>
+        </div>
       </div>
 
       <div id="about" data-section="about">
