@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -63,6 +63,11 @@ export default function LandingPage() {
             {
               text: "Personalized service anticipating every guest need",
               icon: Users
+            },
+            {
+              text: "Call if you want know more",
+              icon: Phone,
+              metadata: "+3809311111111"
             }
           ]}
           useInvertedBackground="noInvert"
