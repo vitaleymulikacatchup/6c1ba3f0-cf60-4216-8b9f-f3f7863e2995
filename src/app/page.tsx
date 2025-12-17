@@ -66,8 +66,7 @@ export default function LandingPage() {
             },
             {
               text: "Call if you want know more",
-              icon: Phone,
-              metadata: "+3809311111111"
+              icon: Phone
             }
           ]}
           useInvertedBackground="noInvert"
